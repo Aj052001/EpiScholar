@@ -50,7 +50,7 @@ const Globe = () => {
                 />
                 <div className="absolute top-[313px] left-[173px] w-[1006px] h-[702px]">
                     {data.map((item, index) => (
-                        <div key={index} className={`${styles.globeItem} absolute shadow-[0px_4px_48px_rgba(218,_0,_255,_0.12)_inset] rounded-981xl bg-white w-[180px] h-[180px] overflow-hidden flex flex-col items-center justify-center p-8 box-border gap-[16px]`} style={{ top: item.top, left: item.left }}>
+                        <div key={index} className={`${styles.globeItem} bg-[#cac3c3] absolute shadow-[0px_4px_48px_rgba(218,_0,_255,_0.12)_inset] rounded-981xl bg-white w-[180px] h-[180px] overflow-hidden flex flex-col items-center justify-center p-8 box-border gap-[16px]`} style={{ top: item.top, left: item.left }}>
                             <b className="self-stretch relative leading-[120%]">{item.title}</b>
                             <div className="w-[148px] relative text-xs leading-[120%] inline-block whitespace-pre-wrap">{item.description}</div>
                         </div>

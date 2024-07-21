@@ -5,9 +5,10 @@
     
     .globeItem {
       border-width: 0;
-      box-shadow: 0px 4px 48px rgba(218, 0, 255, 0.12) inset;
+      box-shadow: 0px 4px 48px rgba(87, 42, 95, 0.12) inset;
       border-radius: 50%;
-      background-color: white;
+      /* background-color: rgb(194, 187, 187); */
+
       width: 200px;
       height: 200px;
       overflow: hidden;
